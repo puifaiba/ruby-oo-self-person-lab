@@ -2,7 +2,6 @@
 
 class Person
     attr_accessor :bank_account, :happiness, :hygiene
-    
     attr_reader :name
     attr_writer
     
@@ -26,7 +25,6 @@ class Person
         @hygiene.clamp(0, 10)
     end
 
-    def 
 
     def clean?
         if @hygiene > 7
